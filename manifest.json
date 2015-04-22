@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
 
-  "name": "Programming Mission 2",
-  "description": "My solution to hackthissite.org programming mission 2",
+  "name": "Speedy SERP",
+  "description": "A semi auto solution to SERP checking",
   "version": "1.0",
 
   "browser_action": {
@@ -10,7 +10,15 @@
   },
   "permissions":[
     "tabs", "https://*/*", "background", "http://*/*", "storage"
-    ],
+    ], 
+  "commands": {
+          "_execute_page_action": {
+            "suggested_key": {
+              "default": "Ctrl+Shift+R",
+              "mac": "Command+Shift+R"
+            },
+            "description": "Run page action"
+  },
   "content_scripts":[
     {
      "matches": ["<all_urls>"],
