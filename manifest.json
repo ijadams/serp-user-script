@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "Quik SERP 2000",
-  "description": "A semi automatic solution to finding keyword rankings! Press ctrl+r to activate.",
+  "description": "A semi automatic solution to finding keyword rankings! On a page of Google results press ctrl+r to activate.",
   "version": "1.0",
   "icons": { "16": "icon16.png",
            "48": "icon48.png",
