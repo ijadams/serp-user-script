@@ -4,7 +4,7 @@
 // @description  To use, press CTRL+R on a page of Google Search Results
 // @author       Ian
 // @require     http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js
-// @match http://www.google.com/*
+// @match https://www.google.com/*
 // ==/UserScript==
 
 
